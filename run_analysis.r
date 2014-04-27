@@ -1,5 +1,8 @@
 # run_analysis.r
 
+# note: you must have a folder "UCI HAR Dataset" in your working directory to run this file
+# you may download that file here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+
 #load test data
 x.test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 y.test <- read.table("./UCI HAR Dataset/test/y_test.txt")
